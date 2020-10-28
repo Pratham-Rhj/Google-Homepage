@@ -1,0 +1,178 @@
+body, html {
+    display: grid;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 150px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.link {
+    color: #404040;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.right {
+    margin-left: auto;
+}
+
+#grid-menu-icon {
+    align-self: center;
+    padding-right: 20px;
+}
+
+#grid-menu-icon img {
+    width: 18px;
+    height: auto;
+    opacity: 60%;
+}
+
+#grid-menu-icon img:hover {
+    opacity: 100%;
+}
+
+.parent {
+    margin: auto;
+}
+
+#google-logo {
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+}
+
+.search-wrapper {
+    position: relative;
+    /* border: 1px blueviolet solid; */
+}
+
+.search-wrapper img {
+    position: absolute;
+}
+
+#magnifying-glass-icon {
+    width: 3%;
+    height: auto;
+
+    top: 38px;
+    left: 18px;
+    opacity: 60%;
+}
+
+#microphone-icon {
+    width: 2.5%;
+    height: auto;
+
+    top: 36px;
+    right: 20px;
+}
+
+#search {
+    border: 1px #DEE1E5 solid;
+    border-radius: 25px;
+    min-width: 580px;
+    height: 45px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+#search:hover {
+    box-shadow: 0px 2px 6px #DEE1E5;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.search-buttons {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    display: inline-block;
+    text-align: center;
+    margin: 10px 3px;
+    padding: 10px 18px;
+
+    border-radius: 4px;
+}
+
+.button p {
+    margin: 0;
+}
+
+.button:hover {
+    color: #222;
+    /* border: 1px solid #c6c6c6; */
+    box-shadow: 0 0 0 1px #c6c6c6;
+}
+
+.search-button {
+    color: #5F6367;
+    background-color: #F2F2F2;
+}
+
+#sign-in {
+    color: white;
+    font-weight: bold;
+    background-color: #4684EF;
+    font-size: 13px;
+    margin: 12px 0;
+    padding: 8px 14px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 10px;
+
+    font-size: 14px;
+    background-color: #F2F2F2;
+    border: 1px #e4e4e4 solid;
+}
+
+.footer p {
+    color: #5F6367;
+}
+
+.footer .link {
+    padding: 0 15px;
+}
